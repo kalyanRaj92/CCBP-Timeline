@@ -1,0 +1,27 @@
+.timeline-container {
+  display: flex;
+  justify-content: center;
+}
+.responsive-container {
+  max-width: 1140px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ccbp-heading {
+  color: #2b237c;
+  font-size: 24px;
+  margin-left: 25px;
+}
+.heading {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 576px) {
+  .responsive-container {
+    max-width: 576px;
+  }
+}
